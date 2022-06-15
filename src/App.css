@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+#tv-naslov {
+  margin-top: 80px;
+}
