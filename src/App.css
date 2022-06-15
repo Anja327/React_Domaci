@@ -37,7 +37,7 @@
   }
 }
 
-#tv-naslov {
+#tv-naslov, #predlognaslov {
   margin-top: 80px;
   margin-bottom: 50px;
 }
@@ -53,3 +53,4 @@
   margin-top: 30px;
   font-size: 30px;
 }
+
