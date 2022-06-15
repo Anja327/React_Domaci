@@ -39,4 +39,17 @@
 
 #tv-naslov {
   margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+#izborprogramaselect{
+  width: 250px;
+  margin-left: 830px;
+  margin-right: 50px;
+  margin-bottom: 15px;
+}
+
+.prikazsemediv{
+  margin-top: 30px;
+  font-size: 30px;
 }

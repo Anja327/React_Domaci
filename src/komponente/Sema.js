@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import SemaPrikaz from './SemaPrikaz';
 
 function Sema() {
 
@@ -44,12 +45,15 @@ function Sema() {
 
     return (
         <div className="divsema">
-            <select id="izborprogramaselect" onChange={selectHandle}>
+            <select className="form-select" id="izborprogramaselect" onChange={selectHandle}>
                 <option>Izaberi</option>
-                <option value={"superStar"}>PinkFilm</option>
-                <option value={"pinkFilm"}>SUPERSTAR</option>
+                <option value={"pinkFilm"}>PinkFilm</option>
+                <option value={"superStar"}>SUPERSTAR</option>
                 <option value={"hbo"}>HBO</option>
             </select>
+
+            <SemaPrikaz superStar={superStar} pinkFilm={pinkFilm} hbo={hbo} izbor={izbor} />
+
         </div>
     )
 }
